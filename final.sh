@@ -15,3 +15,5 @@ sudo nginx -s reload
 exit
 open -a Firefox http://vanr0052.hopto.org/
 /Users/joe/Library/Android/sdk/emulator/emulator -avd Nexus_10_API_25 &
+cd /Users/joe/Library/Android/sdk/platform-tools
+./adb shell am start -a android.intent.action.VIEW -d 'http://vanr0052.hopto.org/'

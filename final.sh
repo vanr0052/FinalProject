@@ -10,3 +10,4 @@ git push -u origin master
 ssh joseph@52.147.208.158
 git clone https://github.com/vanr0052/FinalProjectRepository.git
 rm -rf .git
+cp -r * /var/www/html

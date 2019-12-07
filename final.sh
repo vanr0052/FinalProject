@@ -14,4 +14,4 @@ sudo cp -r * /var/www/html
 sudo nginx -s reload
 exit
 open -a Firefox http://vanr0052.hopto.org/
-/Users/joe/Library/Android/sdk/emulator/emulator -avd Nexus_10_API_25
+/Users/joe/Library/Android/sdk/emulator/emulator -avd Nexus_10_API_25 &

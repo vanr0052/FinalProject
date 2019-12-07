@@ -8,3 +8,4 @@ curl -u "vanr0052" https://api.github.com/user/repos -d '{"name":"FinalProjectRe
 git remote add origin https://github.com/vanr0052/FinalProjectRepository.git
 git push -u origin master
 ssh joseph@52.147.208.158
+git clone https://github.com/vanr0052/FinalProjectRepository.git

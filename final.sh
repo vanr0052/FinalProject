@@ -11,3 +11,6 @@ ssh joseph@52.147.208.158
 git clone https://github.com/vanr0052/FinalProjectRepository.git
 rm -rf .git
 sudo cp -r * /var/www/html
+sudo nginx -s reload
+exit
+open -a Firefox http://vanr0052.hopto.org/

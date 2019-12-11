@@ -30,3 +30,8 @@ docker run -p 1234:80 finalproject:v1
 xcrun simctl boot 3312C8D4-81B4-4BD7-9F1F-5519F9D2A338
 open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app
 xcrun simctl openurl booted "http://localhost:1234"
+ssh joseph@52.147.208.158 <<'ENDSSH'
+sudo apt-get update && apt-get upgrade
+sudo shutdown -h now
+ENDSSH
+open -a Firefox http://vanr0052.hopto.org/
